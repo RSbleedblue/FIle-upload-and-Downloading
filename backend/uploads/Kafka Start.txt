@@ -1,0 +1,6 @@
+E:\kafka\bin\windows>zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+E:\kafka\bin\windows>kafka-server-start.bat ..\..\config\server.properties
+
+kafka-topics.sh --zookeeper localhost:2181 --delete --topic <topic_name>
+
